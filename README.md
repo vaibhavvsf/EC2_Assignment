@@ -1,3 +1,4 @@
+<b>EC2 Instance Assignment</b><br><br>
 Components:
 1. Creating an EC2 instance in AWS or creating a compute instance in the GCP using terraform.
 
@@ -27,23 +28,23 @@ Step3:
 
 Run below commands to create your EC2 instances as required.
 
-// intitialize required plugins and provider plugins
+// intitialize required plugins and provider plugins <br>
 terraform init 
 
-// Validate the code
+// Validate the code<br>
 terraform validate
 
-// Check the provisioned resources
+// Check the provisioned resources<br>
 terraform plan -out=tfplan
 
-// Apply the code and create the resources
+// Apply the code and create the resources<br>
 terraform apply "tfplan"
 
-// destroy the resources
+// destroy the resources<br>
 terraform destroy 
 
 
-Thank you 
+Thank you <br>
 Vaibhav Fardale
 
 
